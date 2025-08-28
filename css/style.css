@@ -1,0 +1,42 @@
+/* body{
+    background: #11689e;
+} */
+/* h2,h1,h3{
+    background: #eb2020;
+    color: white;
+} */
+/* h1{
+    background: #177dbc;
+} */
+/* #heading1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+} */
+/* heading1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+} */
+
+/* div p{
+    background: #d31e1e;
+}
+/* > indicate child only */
+/* div >p{
+    background: #1818c7;
+} */ 
+/* + indicate only immediate forward siblings */
+
+/* div +p{
+    background: #80dd0e;
+} */
+
+/* ~ indicate only forward siblings */
+/* div ~p{
+    background: #80dd0e;
+} */
+
+
+p:nth-child(2){
+    background: blue;
+    color: white;
+}
