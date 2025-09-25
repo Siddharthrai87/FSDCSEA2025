@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(){
+            // alert("hi");
+            const myName=document.getElementById('myName').value;
+            let nameh2=document.createElement('h2');
+            nameh2.innerHTML="Name is="+myName;
+            const myB=document.getElementById('myBranch').value;
+            let myBp=document.createElement('p');
+            myBp.innerHTML="Branch is="+myB;
+            const myS=document.getElementById('skill').value;
+            let myskill=document.createElement('p');
+            myskill.innerHTML="Skill is="+myS;
+            const myC=document.getElementById('clg').value;
+            let myColl=document.createElement('p');
+            myColl.innerHTML="College is="+myC;
+            const myU=document.getElementById('univ').value;
+            let myUn=document.createElement('p');
+            myUn.innerHTML="University is="+myU;
+            let myDiv=document.getElementById('data');
+            myDiv.appendChild(nameh2);
+            myDiv.appendChild(nameh2);
+            myDiv.appendChild(nameh2);
+            myDiv.appendChild(nameh2);
+            myDiv.appendChild(nameh2);
+        }
+    </script>
+</head>
+<body>
+<div class="form" style="margin:auto;border:25 px solid black;width:400px;height:500px" >
+        <label>
+            Enter Name:
+        </label>
+        <input type="text" id="myName" >
+        <br>
+        <label>
+            Enter Branch:
+        </label>
+        <input type="text" id="myBranch"><br>
+        <label>
+            Skills
+        </label>
+        <input type="text" id="skill"><br>
+        <label>
+            College
+        </label>
+        <input type="text" id="clg"><br>
+        <label>
+            University
+        </label>
+        <input type="text" id="univ"><br>
+        
+        <button onclick="display()">Display</button>
+    <div id="data">
+
+    </div>
+</div>
+</body>
+</html>
